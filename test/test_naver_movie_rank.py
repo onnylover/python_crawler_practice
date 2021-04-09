@@ -39,7 +39,6 @@ def ex02():
     for index, div in enumerate(divs):
         print(index + 1, div.a.text, div.a["href"], sep=":")
 
-
 if __name__ == "__main__":
     # ex01()
     ex02()

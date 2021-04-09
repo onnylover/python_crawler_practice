@@ -26,9 +26,3 @@ def crawling(url="",
     except Exception as e:
         if err is not None:
             err(e)
-
-
-
-
-
-
